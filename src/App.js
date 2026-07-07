@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Box,
   AppBar,
@@ -13,6 +13,7 @@ import {
   IconButton,
   useTheme,
   useMediaQuery,
+  Divider,
 } from '@mui/material';
 import {
   Menu as MenuIcon,
